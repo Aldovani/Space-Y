@@ -116,7 +116,7 @@ body {
   background: linear-gradient(0deg, $gray-01 85%, $space-dark 100%);
 
 .starts{
-  background: url('../img/Starts.svg');
+  background: url('../img/Starts.svg') repeat-y;
 }
 
   .lines {
@@ -218,4 +218,8 @@ body {
   outline: none;
   color: white;
   font-size: 20px;
+}
+
+ input[type="checkbox"].input{
+background-color: #0b1e8a;
 }

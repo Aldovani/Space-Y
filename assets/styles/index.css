@@ -84,7 +84,7 @@ body {
   background: linear-gradient(0deg, #0d0e13 85%, #040327 100%);
 }
 #gradiente .starts {
-  background: url("../img/Starts.svg");
+  background: url("../img/Starts.svg") repeat-y;
 }
 #gradiente .lines {
   background: url("../img/lines.svg") no-repeat;
@@ -180,6 +180,10 @@ body {
   outline: none;
   color: white;
   font-size: 20px;
+}
+
+input[type=checkbox].input {
+  background-color: #0b1e8a;
 }
 
 /*# sourceMappingURL=index.css.map */
